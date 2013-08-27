@@ -6,6 +6,6 @@ describe 'hubot' do
   end
   it do
     should contain_nodejs__module('hubot').with_node_version(@node_version)
-    should contain_nodejs__module('coffeescript').with_node_version(@node_version)
+    should contain_nodejs__module('coffee-script').with_node_version(@node_version)
   end
 end

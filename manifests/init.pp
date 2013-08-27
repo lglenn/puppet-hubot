@@ -8,7 +8,7 @@ class hubot {
     node_version => $node_version,
   }
 
-  nodejs::module { 'coffeescript':
+  nodejs::module { 'coffee-script':
     node_version => $node_version,
   }
 
