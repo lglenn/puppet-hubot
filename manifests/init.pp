@@ -2,7 +2,7 @@
 class hubot {
   require nodejs
 
-  $node_version = 'v0.10.13'
+  $node_version = 'v0.10.5'
 
   nodejs::module { 'hubot':
     node_version => $node_version,
